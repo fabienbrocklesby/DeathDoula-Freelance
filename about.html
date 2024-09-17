@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Pip Hiles - Palliative Care</title>
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #e67e22, #9b59b6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .content {
+      width: 100%;
+      max-width: 1200px;
+      background: transparent;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .text {
+      width: 55%;
+      padding-right: 40px;
+      text-align: center;
+    }
+
+    .image {
+      width: 30%;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 15px;
+      line-height: 1.4;
+      font-size: 1em;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      max-width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        min-height: auto;
+        padding: 20px;
+      }
+
+      .content {
+        flex-direction: column-reverse;
+        gap: 20px;
+        /* Smaller spacing for mobile */
+      }
+
+      .text,
+      .image {
+        width: 100%;
+        padding-right: 0;
+      }
+
+      .image {
+        margin-bottom: 20px;
+        width: 80%;
+        /* Slightly smaller image on mobile */
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="text">
+        <h1>About Pip Hiles</h1>
+        <p>Pip Hiles has worked as a registered nurse in community palliative care for 20 years in Melbourne, Porirua,
+          Wellington, Motueka and Tasman.</p>
+        <p>Palliative care is end of life care.</p>
+        <p>Pip has recently trained as a death doula to provide support for people wanting assisted dying at home.</p>
+        <p>Unlike a registered nurse, a death doula does not attend to medications.</p>
+        <p>A death doula is present to support the patient, and their whanau in providing a peaceful presence for a
+          gentle, calm, death. With utmost dignity and care.</p>
+        <p>The end of life phase can be a difficult and fraught time for the person dying.</p>
+        <p>It is a challenging time for whanau, witnessing the end of life experience of a family member.</p>
+        <p>The passing of a loved one, can require support to make the transition from dying, to passing away a peaceful
+          experience.</p>
+        <p>Please contact Pip for any information on death doula services in the home.</p>
+      </div>
+      <div class="image">
+        <img src="/assets/me.png" alt="Pip Hiles with pets">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
