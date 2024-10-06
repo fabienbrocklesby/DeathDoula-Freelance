@@ -22,6 +22,7 @@
       align-items: center;
       padding: 20px;
       box-sizing: border-box;
+      position: relative;
     }
 
     .content {
@@ -63,6 +64,23 @@
       max-width: 100%;
     }
 
+    .home-button {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 5px;
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .home-button:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+
     @media (max-width: 768px) {
       .container {
         min-height: auto;
@@ -72,7 +90,6 @@
       .content {
         flex-direction: column-reverse;
         gap: 20px;
-        /* Smaller spacing for mobile */
       }
 
       .text,
@@ -82,9 +99,9 @@
       }
 
       .image {
+        margin-top: 40px;
         margin-bottom: 20px;
         width: 80%;
-        /* Slightly smaller image on mobile */
       }
 
       h1 {
@@ -94,27 +111,37 @@
       p {
         font-size: 0.9em;
       }
+
+      .home-button {
+        top: 10px;
+        right: 10px;
+        padding: 8px 16px;
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
 
 <body>
   <div class="container">
+    <a href="index.html" class="home-button">Back to Home</a>
     <div class="content">
       <div class="text">
         <h1>About Pip Hiles</h1>
-        <p>Pip Hiles has worked as a registered nurse in community palliative care for 20 years in Melbourne, Porirua,
-          Wellington, Motueka and Tasman.</p>
-        <p>Palliative care is end of life care.</p>
-        <p>Pip has recently trained as a death doula to provide support for people wanting assisted dying at home.</p>
-        <p>Unlike a registered nurse, a death doula does not attend to medications.</p>
-        <p>A death doula is present to support the patient, and their whanau in providing a peaceful presence for a
-          gentle, calm, death. With utmost dignity and care.</p>
-        <p>The end of life phase can be a difficult and fraught time for the person dying.</p>
-        <p>It is a challenging time for whanau, witnessing the end of life experience of a family member.</p>
-        <p>The passing of a loved one, can require support to make the transition from dying, to passing away a peaceful
-          experience.</p>
-        <p>Please contact Pip for any information on death doula services in the home.</p>
+        <p>Kiaora. Welcome. My name is Pip.</p>
+        <p>I live in the Tasman area with my husband, two boys and two dogs.</p>
+        <p>I am extremely privileged to have worked as a Registered Nurse in community palliative care for over 20
+          years.</p>
+        <p>In November 2021, the End-of-Life Choice Act was passed into law in Aotearoa, making assisted dying legally
+          available in New Zealand.</p>
+        <p>My nursing role in palliative care has led me to train as a death doula. The role of death doula is different
+          to the role of Registered Nurse and does not involve administering medications.</p>
+        <p>A death doula provides support to a person (and their whanau) committed to ending their life through assisted
+          dying. Before, during and post death.</p>
+        <p>Death is a part of life, which will happen to us all. A death doula provides emotional and practical support,
+          a coordinator of care to ensure a peaceful death. Offering an oversight of care.</p>
+        <p>Please contact me if you would like any further information on the death doula service.</p>
+        <p>- Pip</p>
       </div>
       <div class="image">
         <img src="./Assets/me.png" alt="Pip Hiles with pets">
