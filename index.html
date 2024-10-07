@@ -28,6 +28,10 @@
       overflow-x: hidden;
     }
 
+    html {
+      overflow: hidden !important;
+    }
+
     .container {
       background-color: rgba(0, 0, 0, 0.5);
       border-radius: 10px;
@@ -35,7 +39,11 @@
       width: 100%;
       max-width: 600px;
       text-align: center;
-      margin-top: 10vh;
+      margin-top: 8vh;
+    }
+
+    #quote p span {
+      font-style: italic;
     }
 
     #name {
@@ -87,8 +95,8 @@
 
     .link-box {
       position: absolute;
-      top: 20px;
-      right: 20px;
+      top: 40px;
+      right: 60px;
       padding: 10px 20px;
       background-color: rgba(255, 255, 255, 0.3);
       border-radius: 5px;
@@ -123,7 +131,7 @@
 
       .container {
         padding: 30px;
-        margin-top: 8vh;
+        margin-top: 10vh;
       }
 
       #name {
@@ -140,6 +148,11 @@
 
       .link-box a {
         font-size: 0.9rem;
+      }
+
+      .link-box {
+        top: 20px;
+        right: 20px;
       }
 
       #quote {
@@ -177,7 +190,7 @@
 
   <div id="quote-container">
     <div id="quote">
-      <p>"We're all just walking each other home." - Ram Dass</p>
+      <p><span>"We're all just walking each other home."</span> - Ram Dass</p>
     </div>
   </div>
 </body>
